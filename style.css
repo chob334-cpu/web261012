@@ -2,16 +2,15 @@
     width: 260px;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0,
-            0, 0, 0.3);
+    box-shadow: 0 4px 12px rgba(0,0, 0, 0.3);
     background: #fff;
     position: relative;
-    transition: transform 0.3s, box -shadow 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 12px 32px rgba(255, 1 93, 7, 0.6);
+    box-shadow: 0 12px 32px rgba(255, 193, 7, 0.6);
 }
 
 .badge {
@@ -20,7 +19,7 @@
     right: 12px;
     background: #ffc107;
     color: #222;
-    padding: 4px 10p x;
+    padding: 4px 10px;
     border-radius: 999px;
     font-weight: bold;
 }
@@ -42,8 +41,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 40px;
-    font-family: "N
- oto Sans KR", sans-serif;
+    font-family: "Noto Sans KR", sans-serif;
 
 }
 
