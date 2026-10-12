@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>김경빈-웹개발기초</title>
+    <title>내 영화 보드</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>내가 제일 좋아하는 영화 한편</h1>
+    <h1>내 영화 보드</h1>
+    <article class="card" .card { width: 260px; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,
+        0,0,0.3); background: #fff; }>
+        <img class="poster" src="https://image.tmdb.org/t/p/w342/iRS4R009OJM4KmhikmzGvkbeEaT.jpg" alt="영화 제목 포스터">
+        <span class="badge">6.4</span>
+        <div class="info" .info { padding: 12px 16px; }>
+            <h2>무서운 영화2</h2>
+            <p class="year">2001</p>
+            <p class="overview">유령이 나올 것처럼 스산한 기운이 감도는 밤. 어느 대저택에서 한 무리의 사람들이 피아노 반주에 맞춰 엉덩이를 흔들며 신나게 노래를 부르고 있다. 이때 하얀
+                잠옷을 입은 소녀가 이들 앞에서 엄청난 양의 오줌을 질질 싸댄다. 이 소녀가 바로 악령이 깃들였다는 이 집 딸 나타샤. 괴상한 짓을 일삼지만 유능한(?) 사제인 맥필리 신부가 그녀에게
+                깃들인 악령을 쫓아내기 위해 찾아온다. 잠시 후 악령을 쫓아내려는 신부와 나타샤의 몸에서 쫓겨나지 않으려는 악령은 서로의 얼굴에 구토를 해대는 등 온갖 더럽고 추악한 짓으로 힘겨루기를
+                한다. 그로부터 1년 뒤 악령의 존재를 밝혀내 명예를 얻으려는 심리학 교수 올드먼이 실험대상인 제자들을 데리고 악령의 집을 찾는다.</p>
+        </div>
+    </article>
+    <footer>
+        <p>이 사이트는 TMDB API를 사용하지만 TMDB의 보증이나 인증을 받지 않았습니다.
+            This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
+        <p>포스터와 영화 정보: TMDB (https://www.themoviedb.org)</p>
+    </footer>
 </body>
+
 </html>
