@@ -1,13 +1,15 @@
 body {
-    background: linear-gradient(135deg, #14 1e30, #243b55);
+    background: linear-gradient(135deg, #141e30, #243b55);
     min-height: 100vh;
     box-sizing: border-box;
     margin: 0;
     padding: 40px;
-    font-family: "Noto Sans KR", sans-serif;
+    font-family: "N
+ oto Sans KR", sans-serif;
+
 }
 
-    h1,
+h1,
 footer {
     color: #fff;
 }
